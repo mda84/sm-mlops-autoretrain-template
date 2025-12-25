@@ -1,0 +1,8 @@
+pipeline_name: sm-mlops-autoretrain
+training_image: null
+train_instance_type: ml.m5.large
+process_instance_type: ml.m5.large
+metric_threshold_accuracy: 0.8
+metric_threshold_rmse: 1.0
+model_approval_status: PendingManualApproval
+enable_cache: true

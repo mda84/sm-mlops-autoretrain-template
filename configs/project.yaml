@@ -1,0 +1,7 @@
+project_name: sm-mlops-autoretrain-template
+aws_region: us-east-1
+s3_bucket_name: sm-mlops-autoretrain-template-${environment_name}
+sagemaker_execution_role_arn: ${SAGEMAKER_ROLE_ARN}
+model_package_group_name: sm-mlops-autoretrain-template-group
+default_tags: ${tags}
+environment_name: dev

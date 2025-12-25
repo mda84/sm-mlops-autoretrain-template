@@ -1,0 +1,5 @@
+owner: data-team
+cost_center: demo
+project: sm-mlops-autoretrain-template
+environment: dev
+managed_by: mlops-template
