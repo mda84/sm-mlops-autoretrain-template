@@ -1,0 +1,6 @@
+root_prefix: mlops-template
+datasets_prefix: datasets
+runs_prefix: runs
+models_prefix: models
+autopilot_prefix: autopilot
+logs_prefix: logs

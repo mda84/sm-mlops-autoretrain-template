@@ -1,0 +1,8 @@
+autopilot_job_prefix: sm-mlops-autoretrain
+target_column_classification: label
+target_column_regression: label
+problem_type: classification
+objective_metric_name: Accuracy
+max_candidates: 5
+max_runtime_seconds: 3600
+output_path: s3://placeholder/autopilot
